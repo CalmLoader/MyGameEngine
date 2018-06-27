@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 2.6)
+project (GameEngine)
+add_definitions("-Wall -std=c++11") 
+include_directories("${PROJECT_SOURCE_DIR}/Framework/Common")
+include_directories("${PROJECT_SOURCE_DIR}/Framework/Interface")
+add_subdirectory(Empty)
+add_subdirectory(Framework)
